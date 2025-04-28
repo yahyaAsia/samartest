@@ -50,4 +50,7 @@ def main():
             else:
                 st.warning("No links found or error occurred.")
         else:
-            st.error("
+            st.error("Please enter a valid URL.")
+
+if __name__ == "__main__":
+    main()
